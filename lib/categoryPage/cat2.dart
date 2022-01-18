@@ -24,9 +24,33 @@ class _cat2State extends State<cat2> {
           child: Column(
             children: [
               Container(
-                color: Colors.blue,
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade700,
+                ),
                 width: MediaQuery.of(context).size.width,
                 height: 200,
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 8,
+                    ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/indications/indication.png',
+                        scale: 10,
+                      ),
+                    ),
+                    Center(
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.volume_up,
+                          size: 50,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
               Container(
                 // height: 200,

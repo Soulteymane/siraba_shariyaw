@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:siraba_shariyaw/acceuil.dart';
-import 'package:siraba_shariyaw/acceuilPanneau.dart';
-import 'package:siraba_shariyaw/categoryPage/cat1.dart';
-import 'package:siraba_shariyaw/cardPanneau.dart';
 
 void main() {
   runApp(MyApp());

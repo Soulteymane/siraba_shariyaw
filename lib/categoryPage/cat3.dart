@@ -24,9 +24,33 @@ class _cat3State extends State<cat3> {
           child: Column(
             children: [
               Container(
-                color: Colors.yellow,
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade700,
+                ),
                 width: MediaQuery.of(context).size.width,
                 height: 200,
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 8,
+                    ),
+                    Center(
+                      child: Image.asset(
+                        'assets/images/interdictions/interdiction.png',
+                        scale: 1.5,
+                      ),
+                    ),
+                    Center(
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.volume_up,
+                          size: 50,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
               Container(
                 // height: 200,
