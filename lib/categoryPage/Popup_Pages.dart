@@ -240,8 +240,8 @@ Widget Cat2A4() {
       children: [
         Center(
           child: Image.asset(
-            'assets/images/indications/4.png',
-            scale: 1.5,
+            'assets/images/indications/5.png',
+            scale: 8,
           ),
         ),
         SizedBox(
@@ -504,7 +504,7 @@ Widget Cat4A4() {
       children: [
         Center(
           child: Image.asset(
-            'assets/images/obligations/4.jpg',
+            'assets/images/obligations/4n.png',
             scale: 6,
           ),
         ),

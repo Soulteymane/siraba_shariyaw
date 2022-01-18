@@ -234,7 +234,7 @@ class _cat2State extends State<cat2> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                        'assets/images/indications/4.png'),
+                                        'assets/images/indications/5.png'),
                                   ),
                                 ),
                                 height: 130,

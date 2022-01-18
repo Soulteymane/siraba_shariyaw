@@ -180,7 +180,7 @@ class _cat1State extends State<cat1> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                        'assets/images/dangers/3.png'),
+                                        'assets/images/dangers/5.png'),
                                   ),
                                 ),
                                 height: 130,
@@ -234,7 +234,7 @@ class _cat1State extends State<cat1> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                        'assets/images/dangers/4.png'),
+                                        'assets/images/dangers/7.png'),
                                   ),
                                 ),
                                 height: 130,

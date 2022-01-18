@@ -234,7 +234,7 @@ class _cat4State extends State<cat4> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                        'assets/images/obligations/4.jpg'),
+                                        'assets/images/obligations/4n.png'),
                                   ),
                                 ),
                                 height: 130,
