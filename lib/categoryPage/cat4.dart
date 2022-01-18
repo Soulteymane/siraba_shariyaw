@@ -37,7 +37,7 @@ class _cat4State extends State<cat4> {
                     Center(
                       child: Image.asset(
                         'assets/images/obligations/obligation.png',
-                        scale: 1.5,
+                        scale: 4,
                       ),
                     ),
                     Center(
